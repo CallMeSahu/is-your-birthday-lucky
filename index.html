@@ -13,40 +13,39 @@
         <h1>Is Your Birthday Lucky?</h1>
         <p>Enter your birthday and your lucky number to find out!</p>
     </header>
-    <script type="text/javascript" src="app.js"></script>
-
-    <section class="working-area">
-        <div class="section bill-section">
-            <p class="label">Enter Your Birthday:</p>
-            <input type="date" id="input-birthday">            
-        </div>
     
-        <div class="section cash-section">
+    <section class="working-area">
+
+        <p class="label">Enter Your Birthday:</p>
+        <input type="date" id="input-birthday">               
+        <div>
             <p class="label">Enter Your Lucky Number:</p>
             <input type="number" id="input-luckynumber">
-            <button id="btn-check">Check</button>
         </div>
 
-        <div class="lucky">
+        <button id="btn-check">Check</button>
+        <button id="btn-reset">Reset</button>      
+        
+        <section class="lucky">
             <h3 class="label">🥳 Your birthday is lucky! 🥳</h3>
             <img src="https://media1.giphy.com/media/9jEaPxN9eZWmI/200.webp?cid=ecf05e47rhrwbu38mxfd1zozxfjaihywrt88kxbb3dhdgjzf&rid=200.webp&ct=g" alt="">
-        </div>
+        </section>
 
-        <div class="not-lucky">
+        <section class="not-lucky">
             <h3 class="label">😔 Your birthday is not lucky! 😔</h3>
             <img src="https://media3.giphy.com/media/YOkrK8agZLEk2cXeLi/200w.webp?id=ecf05e47dfbx2rgolpla8prm29g7fhs8cvqofpyx6lh5jz1f&rid=200w.webp&ct=g" alt="">
-        </div>
-
-
+            </section>
     </section>
     
     <footer class="footer">
         <h2>Connect with Me</h2>
         <ul class="nonbullet-links">
-            <li class="inline-links"><a href="">LinkedIn</a></li>
-            <li class="inline-links"><a href="">Github</a></li>
-            <li class="inline-links"><a href="">Twitter</a></li>            
+            <li class="inline-links"><a href="https://www.linkedin.com/in/siddhartha-sahu/" target="_blank">LinkedIn</a></li>
+            <li class="inline-links"><a href="https://github.com/CallMeSahu" target="_blank">Github</a></li>
+            <li class="inline-links"><a href="https://twitter.com/CallMeSahu" target="_blank">Twitter</a></li>            
         </ul>
     </footer>
+
+    <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
