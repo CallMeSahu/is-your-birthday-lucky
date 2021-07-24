@@ -1,3 +1,5 @@
+var privacyBtn = document.querySelector("#privacy-btn");
+var privacyNotice = document.querySelector(".privacy-notice");
 var dateInput = document.querySelector("#input-birthday");
 var luckyNumberInput = document.querySelector("#input-luckynumber");
 var checkBtn = document.querySelector("#btn-check");
@@ -45,5 +47,8 @@ function resetPage(){
     luckyNumberInput.value = "";
 }
 
+privacyBtn.addEventListener("click", () => {
+    privacyNotice.style.display = "none";
+});
 checkBtn.addEventListener("click", checkBtnHandler);
 resetBtn.addEventListener("click", resetPage);
